@@ -24,8 +24,8 @@ class OpenldapLibs < Formula
   
   def caveats
     "You will need to download and edit the python-ldap setup in order to get python-ldap working.
-    \bhttp://pypi.python.org/pypi/python-ldap/
-    \bExtract python-ldap and modify the setup.py to reflect:
+Download python-ldap from: http://pypi.python.org/pypi/python-ldap/
+Extract python-ldap and modify the setup.py to reflect:
     \b[_ldap]
     \blibrary_dirs = /usr/local/lib
     \binclude_dirs = /usr/include/sasl
