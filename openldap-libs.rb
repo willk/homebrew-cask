@@ -31,5 +31,6 @@ class OpenldapLibs < Formula
     \binclude_dirs = /usr/include/sasl
     \bextra_compile_args = -g -arch x86_64
     \bextra_objects = 
-    \blibs = ldap_r lber sasl2 ssl crypto
+    \blibs = ldap_r lber sasl2 ssl crypto"
+  end
 end
